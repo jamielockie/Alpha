@@ -2,12 +2,222 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>React Boilerplate</title>
+	<title>Alpha</title>
+	
 	<link rel="stylesheet" type="text/css" href="/public/styles/style.css">
+
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/9b1f59a0bf.js"></script>
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Josefin+Sans:400,700" rel="stylesheet">
 </head>
 <body>
-	<div id="app">
+	<header class="header">
+		<div class="wrapper">
+			<nav class="header__container">
+				<div class="header__logo">
+					<div class="logo">A</div>
+				</div>
+				<nav class="header__nav">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><div class="keyline--header"></div></li>
+						<li><a href="">Our Courses</a></li>
+						<li><div class="keyline--header"></div></li>
+						<li><a href="">Sign Up</a></li>
+						<li><div class="keyline--header"></div></li>
+						<li><a href="">About Us</a></li>
+						<li><div class="keyline--header"></div></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</nav>
+			</nav>
+			<div class="hero__container">
+				<div class="hero__titleContainer">
+					<h1>Alpha Studio</h1>
+					<h2>Branding, Photography	& Web Services </h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="subHeader">
+		<div class="wrapper">
+			<div>
+				<h4>Hello we are</h4>
+				<p>Alpha</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nam a, excepturi explicabo obcaecati saepe facilis? Atque error deserunt molestias quo quia animi recusandae. Fugit pariatur odio totam sunt maxime.</p>
+			</div>
+			<div class="elipses"><i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i></div>
+		</div>
 	</div>
-	<script src="/public/scripts/app.js"></script>
+
+	<section id="courses" class="courses">
+		<div class="wrapper">
+			<div class="section__head">
+				<h3>Some of our work</h3>
+				<div class="keyline"></div>
+			</div>
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim sapiente excepturi deleniti provident, ad quaerat commodi adipisci, consectetur beatae nesciunt perspiciatis odio dicta ipsam, facilis et vero! Magnam, distinctio saepe!</p>
+			</div>
+			
+			<ul class="gallery__tabs">
+				<li>All</li>
+				<li>Branding</li>
+				<li>Print</li>
+				<li>Product</li>
+				<li>Web Design</li>
+				<li>Photography</li>
+			</ul>
+			<ul class="gallery__container">
+				<li class="gallery__item">
+					<div class="gallery__itemImg">
+						<img src="" alt="">
+					</div>
+					<div class="gallery__itemTitle">
+						<h4>gallery item title</h4>
+					</div>
+				</li>
+				<li class="gallery__item">
+					<div class="gallery__itemImg">
+						<img src="" alt="">
+					</div>
+					<div class="gallery__itemTitle">
+						<h4>gallery item title</h4>
+					</div>
+				</li>
+				<li class="gallery__item">
+					<div class="gallery__itemImg">
+						<img src="" alt="">
+					</div>
+					<div class="gallery__itemTitle">
+						<h4>gallery item title</h4>
+					</div>
+				</li>
+				<li class="gallery__item">
+					<div class="gallery__itemImg">
+						<img src="" alt="">
+					</div>
+					<div class="gallery__itemTitle">
+						<h4>gallery item title</h4>
+					</div>
+				</li>
+				<li class="gallery__item">
+					<div class="gallery__itemImg">
+						<img src="" alt="">
+					</div>
+					<div class="gallery__itemTitle">
+						<h4>gallery item title</h4>
+					</div>
+				</li>
+				<li class="gallery__item">
+					<div class="gallery__itemImg">
+						<img src="" alt="">
+					</div>
+					<div class="gallery__itemTitle">
+						<h4>gallery item title</h4>
+					</div>
+				</li>
+			</ul>
+			<button> See All Works</button>	
+		</div>
+	<section>
+
+	<section id="services" class="services">
+		<div class="wrapper">
+			<div class="services__container">
+				<div class="services__hero">
+					<div class="services__titleContainer">
+						<h3>Our Services</h3>
+						<div class="keyline"></div>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<img class="services__icon" src="" alt="">
+						<h4>Brand Strategy</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus quasi ad tempora? copy</p>
+					</li>
+					<li>
+						<img class="services__icon" src="" alt="">
+						<h4>Web Design</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vero atque eum! copy</p>
+					</li>
+					<li>
+						<img class="services__icon" src="" alt="">
+						<h4>Cloud Computing</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ipsam id doloribus. copy</p>
+					</li>
+					<li>
+						<img class="services__icon" src="" alt="">
+						<h4>Photography</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam officia nesciunt illo. copy</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	<section class="blog" id="blog">
+		<div class="section__head">
+				<h3>From the Blog</h3>
+				<div class="keyline"></div>
+		</div>
+		<ul class="blog__gallery">
+			<li class="blog__card">
+				<img src="" alt="">
+				<p class="blog__category">Web Design</p>
+				<h5 class="blog__title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+				<p class="blog__subtitle">Posted on September 13, 2017 // 40 Comments</p>
+			</li>
+			<li class="blog__card">
+				<img src="" alt="">
+				<p class="blog__category">Branding</p>
+				<h5 class="blog__title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+				<p class="blog__subtitle">Posted on August 10, 2017 // 32 Comments</p>
+			</li>
+			<li class="blog__card">
+				<img src="" alt="">
+				<p class="blog__category">Culture</p>
+				<h5 class="blog__title">Lorem ipsum dolor sit amet, consectetur adipisicing.</h5>
+				<p class="blog__subtitle">Posted on June 14, 2017 // 22 Comments</p>
+			</li>
+		</ul>
+	</section>
+
+	<section class="work" id="work">
+		<div>
+			<h3>Want to work with us?</h3>
+			<p>We are always looking for new challenges and interesting projects</p>
+			<h5>Start a project <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </h5>
+		</div>
+	</section>
+	
+	<section class="contact" id="contact">
+		<ul>
+			<li>
+				<h5>Office</h5>
+				<p>234 MY Favourite Street<br> Toronto, ON</p>
+			</li>
+			<li>
+				<div class="logo">A</div>
+				<p>alpha</p>
+				<p>Creative Studio</p>
+			</li>
+			<li>
+				<h5>Contact</h5>
+				<p>Have any Questions? Let's talk <br> We're here to help.</p>
+			</li>
+		</ul>
+	</section>
+
+	<footer>
+		<p>Copyright © 2017 Alpha Studio. All Right Reserved</p>
+	</footer>
+
+<!-- 	<div id="app">
+	</div>
+	<script src="/public/scripts/app.js"></script> -->
 </body>
 </html>
